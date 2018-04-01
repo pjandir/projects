@@ -3,8 +3,8 @@ This is a repo for some of my personal and side projects. Each project lives in 
 description. 
 
 
-| Name | Description |
-| --- | --- |
-| Bokeh-Heroku-Tutorial | Guide to deploying a Flask and Bokeh app (with stylesheet) to Heroku |
-| | |
+| Name | Description | Notes |
+| --- | --- | --- |
+| Bokeh-Heroku-Tutorial | Guide to deploying a Flask and Bokeh app (with stylesheet) to Heroku | Read the blog [post](https://pjandir.github.io/Bokeh-Heroku-Tutorial/) |
+| | | |
 
