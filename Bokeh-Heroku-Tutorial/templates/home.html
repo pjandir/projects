@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <link rel="stylesheet" href='{{url_for('static', filename='style.css')}}' type="text/css" /> 
+    <!-- <link rel="stylesheet" href="//cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.css" type="text/css" /> -->
+    <script type="text/javascript" src="//cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.js"></script>
+    {{ script | safe }}
+  </head>
+  <body>
+    <div class=page>
+      <h1>Plotting the iris dataset with Bokeh</h1>
+
+      <div class="container">
+        {{ div | safe }}
+      </div>
+
+      <br>
+      <a>
+        {{ example_string }}
+      </a>
+
+    </div>
+  </body>
+</html>
